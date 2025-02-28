@@ -1,4 +1,4 @@
-import { type ClaimsType } from '../../../frontend/src/schemas/claimsSchema.js';
+import { type ClaimsType } from '../schemas/claimsSchema.js';
 
 interface aggregatedData {
   [key: string]: ClaimsType[];

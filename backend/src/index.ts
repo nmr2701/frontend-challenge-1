@@ -1,7 +1,7 @@
 import { serve } from "@hono/node-server";
 import { Hono } from "hono";
 import { cors } from 'hono/cors';
-import type { ClaimsType } from '../../frontend/src/schemas/claimsSchema.js';
+import { type ClaimsType } from './schemas/claimsSchema.js';
 import { mrfGenerator } from './utils/mrfGenerator.js'
 import { storeMrfFiles } from "./utils/mrfStorage.js";
 

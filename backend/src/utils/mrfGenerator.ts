@@ -1,5 +1,5 @@
 import type { MrfType } from '../schemas/mrfSchema.js';
-import type { ClaimsType } from '../../../frontend/src/schemas/claimsSchema.js';
+import { type ClaimsType } from '../schemas/claimsSchema.js';
 import { aggregateClaimsByPlan, groupClaimsByTypeAndService, groupByProcedure } from './claimAggregator.js';
 import { calculateAverage } from './calcAverage.js';
 
