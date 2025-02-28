@@ -1,37 +1,34 @@
-import { useEffect, useState } from 'react';
-import { Notification } from '@mantine/core';
-import { API_URL } from '../config/constants';
-import axios from 'axios';
+import { useEffect, useState } from "react";
+import { Title, Container } from "@mantine/core";
+import { MrfType } from "~/schemas/mrfSchema";
+import { fetchMrfFiles } from "~/services/apiService";
+import MrfFilesList from "../components/MrfFilesList";
+import MrfFilesLoader from "../components/MrfFilesLoader";
 
 export default function MrfFilesPage() {
-  const [mrfFiles, setMrfFiles] = useState<any[]>([]);
-  const [error, setError] = useState<string | null>(null);
+    const [mrfFiles, setMrfFiles] = useState<MrfType[]>([]);
+    const [error, setError] = useState<string | null>(null);
+    const [loading, setLoading] = useState<boolean>(true);
 
-  useEffect(() => {
-    const fetchMrfFiles = async () => {
-      try {
-        const response = await axios.get(`${API_URL}/claims/mrf-files`);
-        setMrfFiles(response.data.mrfFiles);
-        console.log(response.data.mrfFiles);
-      } catch (err) {
-        setError('Failed to fetch MRF files');
-        console.error(err);
-      }
-    };
+    useEffect(() => {
+        fetchMrfFiles()
+            .then((files) => {
+                setMrfFiles(files);
+                setLoading(false);
+            })
+            .catch((err) => {
+                setError(err.message);
+                setLoading(false);
+            });
+    }, []);
 
-    fetchMrfFiles();
-  }, []);
-
-  return (
-    <div className="p-4">
-      <h1 className="text-xl font-bold mb-4">MRF Files</h1>
-      {error && (
-        <Notification title="Error" color="red">
-          {error}
-        </Notification>
-      )}
-        
-    </div>
-  );
-};
-
+    return (
+        <Container fluid style={{ textAlign: "center", padding: "20px" }}>
+            <Title order={1} fw={500} c="royalGreen.3" mb="md">
+                MRF Files
+            </Title>
+            <MrfFilesLoader loading={loading} error={error} />
+            <MrfFilesList mrfFiles={mrfFiles} setError={setError} loading={loading} />
+        </Container>
+    );
+}

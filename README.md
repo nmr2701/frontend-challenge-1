@@ -60,10 +60,10 @@ Remember, this challenge is as much about how you approach problem-solving and m
 - **Create a user interface** that allows users to upload a CSV file of claims.
 - **Use Mantine components** for building the interface (do not design components from scratch).
 - The interface should include:
-  - A file upload button.
-  - Display of the selected file name.
-  - Error handling for incorrect file formats.
-  - A table of all the claims that the user will approve.
+    - A file upload button.
+    - Display of the selected file name.
+    - Error handling for incorrect file formats.
+    - A table of all the claims that the user will approve.
 
 ### 3. Parse, Validate, and Present Claims Data
 
@@ -94,19 +94,18 @@ Remember, this challenge is as much about how you approach problem-solving and m
 
 - **Create a markdown file (`DESIGN.md`)** that explains the entire application architecture and functionality.
 - Include details about:
-  - Overall application flow.
-  - Components and their responsibilities.
-  - State management using MobX.
-  - Interaction with the backend API.
-  - Routing and navigation.
+    - Overall application flow.
+    - Components and their responsibilities.
+    - State management using MobX.
+    - Interaction with the backend API.
+    - Routing and navigation.
 
 ### 7. Code Organization and Best Practices
 
 - Organize your code into appropriate folders:
-  - `components/` for reusable components.
-  - `pages/` for page-level components.
-  - `stores/` for MobX state management (use one file for all state management).
-  - `services/` for API calls and backend interaction.
-  - `utils/` for utility functions.
+    - `components/` for reusable components.
+    - `pages/` for page-level components.
+    - `stores/` for MobX state management (use one file for all state management).
+    - `services/` for API calls and backend interaction.
+    - `utils/` for utility functions.
 - **Maintain high code quality** with proper spacing, comments, and meaningful naming conventions.
-

@@ -1,29 +1,26 @@
 import { makeAutoObservable } from "mobx";
-import { ClaimsType } from "../schemas/claimsSchema"; 
+import { ClaimsType } from "../schemas/claimsSchema";
 
 class ClaimsStore {
-  claims: ClaimsType[] = [];
-  selectedFileName: string | null = null;
+    claims: ClaimsType[] = [];
+    selectedFileName: string | null = null;
 
-  constructor() {
-    makeAutoObservable(this);
-  }
+    constructor() {
+        makeAutoObservable(this);
+    }
 
-  setClaims(data: ClaimsType[]) {
-    this.claims = data;
-  }
+    setClaims(data: ClaimsType[]) {
+        this.claims = data;
+    }
 
-  removeClaim(claimId: number) {
-    this.claims = this.claims.filter(claim => claim.claimId !== claimId);
-  }
+    removeClaim(claimId: number) {
+        this.claims = this.claims.filter((claim) => claim.claimId !== claimId);
+    }
 
-  setSelectedFileName(fileName: string) {
-    this.selectedFileName = fileName;
-  }
-
+    setSelectedFileName(fileName: string) {
+        this.selectedFileName = fileName;
+    }
 }
 const claimsStore = new ClaimsStore();
 
-
-
-export { claimsStore }; 
+export { claimsStore };
