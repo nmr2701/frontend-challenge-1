@@ -1,19 +1,19 @@
 import { z } from 'zod';
 
 export const claimsSchema = z.object({
-    claimId: z.string(),
+    claimId: z.number(),
     subscriberId: z.string(),
     memberSequence: z.number(),
     claimStatus: z.enum(['Payable', 'Denied', 'Partial Deny']),
     billed: z.number(),
     allowed: z.number(),
     paid: z.number(),
-    paymentStatusDate: z.string(),
-    serviceDate: z.string(),
-    receivedDate: z.string(),
-    entryDate: z.string(),
-    processedDate: z.string(),
-    paidDate: z.string(),
+    paymentStatusDate: z.date(),
+    serviceDate: z.date(),
+    receivedDate: z.date(),
+    entryDate: z.date(),
+    processedDate: z.date(),
+    paidDate: z.date(),
     paymentStatus: z.enum(['Paid']),
     groupName: z.string(),
     groupId: z.string(),
@@ -29,5 +29,5 @@ export const claimsSchema = z.object({
     providerName: z.string(),
 });
 
-export type ClaimsData = z.infer<typeof claimsSchema>;
+export type ClaimsType = z.infer<typeof claimsSchema>;
 

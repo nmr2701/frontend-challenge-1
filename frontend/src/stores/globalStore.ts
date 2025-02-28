@@ -1,23 +1,21 @@
 import { makeAutoObservable } from "mobx";
-import { ClaimsData } from "../schemas/claimsSchema"; 
+import { ClaimsType } from "../schemas/claimsSchema"; 
 
 class ClaimsStore {
-  claims: ClaimsData[] = [];
+  claims: ClaimsType[] = [];
   selectedFileName: string | null = null;
 
   constructor() {
     makeAutoObservable(this);
   }
 
-  setClaims(data: ClaimsData[]) {
+  setClaims(data: ClaimsType[]) {
     this.claims = data;
   }
 
   setSelectedFileName(fileName: string) {
     this.selectedFileName = fileName;
   }
-
-
 
 }
 const claimsStore = new ClaimsStore();
