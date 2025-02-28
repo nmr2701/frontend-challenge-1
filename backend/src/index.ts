@@ -36,26 +36,13 @@ app.post("/claims/approve", async (c) => {
 app.get("/claims/mrf-files", async (c) => {
   try {
     // Fetch MRF files
-    app.get("/claims/mrf-files", async (c) => {
-      try {
-        // Fetch MRF files
-        const mrfFiles = await getMrfFiles; // Assuming getAll is a method to retrieve all MRF files
-    
-        return c.json({ success: true, mrfFiles });
-    
-      } catch (error) {
-        console.error('Error fetching MRF files:', error);
-        return c.json({ 
-          success: false, 
-          error: 'Failed to fetch MRF files' 
-        }, 500);
-      }
-    });
+    const mrfFiles = await getMrfFiles(); 
+    return c.json({ success: true, mrfFiles });
   } catch (error) {
     console.error('Error fetching MRF files:', error);
-    return c.json({
-      success: false,
-      error: 'Failed to fetch MRF files'
+    return c.json({ 
+      success: false, 
+      error: 'Failed to fetch MRF files' 
     }, 500);
   }
 });
