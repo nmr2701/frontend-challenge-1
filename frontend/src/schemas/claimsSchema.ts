@@ -21,11 +21,11 @@ export const claimsSchema = z.object({
     divisionId: z.enum(['N', 'S', 'E', 'W']),
     plan: z.string(),
     planId: z.string(),
-    placeOfService: z.enum(['Outpatient Hospital', 'Emergency Room - Hospital', 'Inpatient Hospital']),
+    placeOfService: z.string(),
     claimType: z.enum(['Professional', 'Institutional']),
     procedureCode: z.string(),
     memberGender: z.enum(['Male', 'Female']),
-    providerId: z.string(),
+    providerId: z.number(),
     providerName: z.string(),
 });
 

@@ -1,0 +1,5710 @@
+{
+  "reporting_entity_name": "Clearest Challenge",
+  "reporting_entity_type": "Health Insurance Issuer",
+  "plan_name": "Family Coverage Plan",
+  "plan_id": "FCP003",
+  "plan_id_type": "HIOS",
+  "plan_market_type": "group",
+  "last_updated_on": "2025-02-28",
+  "version": "7",
+  "out_of_network": [
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "E8948",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 1447.45,
+              "providers": [
+                {
+                  "billed_charge": 9512.66,
+                  "npi": [
+                    7800627673
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "w9452",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 5553.66,
+              "providers": [
+                {
+                  "billed_charge": 6029.1,
+                  "npi": [
+                    5250950964
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "O1729",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 2781.51,
+              "providers": [
+                {
+                  "billed_charge": 6109.31,
+                  "npi": [
+                    823783106
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "b5391",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 1545.63,
+              "providers": [
+                {
+                  "billed_charge": 4601.11,
+                  "npi": [
+                    3906714857
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "U1311",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 124,
+              "providers": [
+                {
+                  "billed_charge": 2549.59,
+                  "npi": [
+                    9072163870
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "Z9132",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 4355.35,
+              "providers": [
+                {
+                  "billed_charge": 5680.36,
+                  "npi": [
+                    1803119768
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "c7873",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 1136.69,
+              "providers": [
+                {
+                  "billed_charge": 3388.49,
+                  "npi": [
+                    8521912173
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "I9030",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 114.35,
+              "providers": [
+                {
+                  "billed_charge": 7448.75,
+                  "npi": [
+                    2197056962
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "l2834",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 738.53,
+              "providers": [
+                {
+                  "billed_charge": 1130.27,
+                  "npi": [
+                    1892064083
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "C0543",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 2906.17,
+              "providers": [
+                {
+                  "billed_charge": 4610.7,
+                  "npi": [
+                    491312261
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "w8810",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 3492.78,
+              "providers": [
+                {
+                  "billed_charge": 5538.94,
+                  "npi": [
+                    5751954762
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "k8071",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 2289.17,
+              "providers": [
+                {
+                  "billed_charge": 5192.3,
+                  "npi": [
+                    9733285279
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "q3128",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 7154.15,
+              "providers": [
+                {
+                  "billed_charge": 9954.29,
+                  "npi": [
+                    5343504829
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "L2037",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 769.44,
+              "providers": [
+                {
+                  "billed_charge": 2077.45,
+                  "npi": [
+                    6159565175
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "D6873",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 3974.94,
+              "providers": [
+                {
+                  "billed_charge": 5445.92,
+                  "npi": [
+                    7917444479
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "Z4167",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 2987.95,
+              "providers": [
+                {
+                  "billed_charge": 9044.55,
+                  "npi": [
+                    2499937756
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "I4863",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 1133.79,
+              "providers": [
+                {
+                  "billed_charge": 2015.2,
+                  "npi": [
+                    1472220104
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "u5344",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 1813.3,
+              "providers": [
+                {
+                  "billed_charge": 2355.25,
+                  "npi": [
+                    7152002673
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "n0207",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 1369.69,
+              "providers": [
+                {
+                  "billed_charge": 2864.62,
+                  "npi": [
+                    9226269029
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "S0206",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 227.81,
+              "providers": [
+                {
+                  "billed_charge": 7937.1,
+                  "npi": [
+                    5796888225
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "m5709",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 1805.92,
+              "providers": [
+                {
+                  "billed_charge": 1860.95,
+                  "npi": [
+                    2568779632
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "d1062",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 4223.32,
+              "providers": [
+                {
+                  "billed_charge": 7697.34,
+                  "npi": [
+                    2331761228
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "U8161",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 3397.22,
+              "providers": [
+                {
+                  "billed_charge": 5483.43,
+                  "npi": [
+                    9534791388
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "e3869",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 1332.75,
+              "providers": [
+                {
+                  "billed_charge": 1900.53,
+                  "npi": [
+                    9873403728
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "k4333",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 1741.85,
+              "providers": [
+                {
+                  "billed_charge": 2666.36,
+                  "npi": [
+                    61389767
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "E5068",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 4838.87,
+              "providers": [
+                {
+                  "billed_charge": 5172.81,
+                  "npi": [
+                    6920869468
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "I3357",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 1342.96,
+              "providers": [
+                {
+                  "billed_charge": 2099.52,
+                  "npi": [
+                    6650344149
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "B7464",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 307.21,
+              "providers": [
+                {
+                  "billed_charge": 1156.45,
+                  "npi": [
+                    8331227538
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "a2156",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 2782.14,
+              "providers": [
+                {
+                  "billed_charge": 5485.56,
+                  "npi": [
+                    5192651473
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "J7976",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 100.32,
+              "providers": [
+                {
+                  "billed_charge": 1545.76,
+                  "npi": [
+                    9627907014
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "j3240",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 5660.79,
+              "providers": [
+                {
+                  "billed_charge": 7463.26,
+                  "npi": [
+                    9820634125
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "l4442",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 16.55,
+              "providers": [
+                {
+                  "billed_charge": 2824.27,
+                  "npi": [
+                    3232137590
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "K1897",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 2585.85,
+              "providers": [
+                {
+                  "billed_charge": 9874.75,
+                  "npi": [
+                    90870144
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "D4607",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 4538.43,
+              "providers": [
+                {
+                  "billed_charge": 9935,
+                  "npi": [
+                    5200050895
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "v7314",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 5842.5,
+              "providers": [
+                {
+                  "billed_charge": 5866.89,
+                  "npi": [
+                    864484051
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "p7025",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 848.57,
+              "providers": [
+                {
+                  "billed_charge": 6286.07,
+                  "npi": [
+                    9647471280
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "y9727",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 1208.79,
+              "providers": [
+                {
+                  "billed_charge": 3660.45,
+                  "npi": [
+                    1962271143
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "z4995",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 3736.91,
+              "providers": [
+                {
+                  "billed_charge": 5428.09,
+                  "npi": [
+                    4098629837
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "G0735",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 1496.14,
+              "providers": [
+                {
+                  "billed_charge": 3265.37,
+                  "npi": [
+                    5392694239
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "i5894",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 100.13,
+              "providers": [
+                {
+                  "billed_charge": 533.6,
+                  "npi": [
+                    6959270836
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "M8897",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 1588.42,
+              "providers": [
+                {
+                  "billed_charge": 5367.89,
+                  "npi": [
+                    8935257988
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "G7826",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 6370.14,
+              "providers": [
+                {
+                  "billed_charge": 9747.48,
+                  "npi": [
+                    882842478
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "s0874",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 754.14,
+              "providers": [
+                {
+                  "billed_charge": 967.83,
+                  "npi": [
+                    4767180784
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "a1420",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 673.33,
+              "providers": [
+                {
+                  "billed_charge": 3209.74,
+                  "npi": [
+                    8989745202
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "q0786",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 1014.7,
+              "providers": [
+                {
+                  "billed_charge": 4454.54,
+                  "npi": [
+                    505422251
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "t7542",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 520.34,
+              "providers": [
+                {
+                  "billed_charge": 2716.87,
+                  "npi": [
+                    2890963978
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "H4094",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 7757.21,
+              "providers": [
+                {
+                  "billed_charge": 7775.05,
+                  "npi": [
+                    2532680171
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "j2336",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 2748.85,
+              "providers": [
+                {
+                  "billed_charge": 4262.56,
+                  "npi": [
+                    46569142
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "u5448",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 4196.58,
+              "providers": [
+                {
+                  "billed_charge": 4459.87,
+                  "npi": [
+                    3471120148
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "G2932",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 1212.01,
+              "providers": [
+                {
+                  "billed_charge": 1869.86,
+                  "npi": [
+                    3995374655
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "M6830",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 1135.47,
+              "providers": [
+                {
+                  "billed_charge": 5518.5,
+                  "npi": [
+                    1971753045
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "R0243",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 1054,
+              "providers": [
+                {
+                  "billed_charge": 3664.04,
+                  "npi": [
+                    219323413
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "A0506",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 850.04,
+              "providers": [
+                {
+                  "billed_charge": 6865.27,
+                  "npi": [
+                    3968107091
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "L5050",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 51.82,
+              "providers": [
+                {
+                  "billed_charge": 183.46,
+                  "npi": [
+                    1026046514
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "V4751",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 980.77,
+              "providers": [
+                {
+                  "billed_charge": 4383.96,
+                  "npi": [
+                    3581425807
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "p4358",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 1042,
+              "providers": [
+                {
+                  "billed_charge": 7473.68,
+                  "npi": [
+                    6007609895
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "A6505",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 805.51,
+              "providers": [
+                {
+                  "billed_charge": 4427.24,
+                  "npi": [
+                    1389944800
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "v5235",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 3812.76,
+              "providers": [
+                {
+                  "billed_charge": 7594.44,
+                  "npi": [
+                    5298844849
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "w5037",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 6862.46,
+              "providers": [
+                {
+                  "billed_charge": 9642.64,
+                  "npi": [
+                    6005072095
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "d9549",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 5881.48,
+              "providers": [
+                {
+                  "billed_charge": 7069.59,
+                  "npi": [
+                    3768337802
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "f9657",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 638.91,
+              "providers": [
+                {
+                  "billed_charge": 1045.3,
+                  "npi": [
+                    2147749542
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "H7103",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 2727.9,
+              "providers": [
+                {
+                  "billed_charge": 3097.34,
+                  "npi": [
+                    3543881543
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "h9424",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 4797.06,
+              "providers": [
+                {
+                  "billed_charge": 7855.34,
+                  "npi": [
+                    7787620753
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "R2193",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 180.26,
+              "providers": [
+                {
+                  "billed_charge": 404.23,
+                  "npi": [
+                    1654766843
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "E8727",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 916.33,
+              "providers": [
+                {
+                  "billed_charge": 3801.82,
+                  "npi": [
+                    4282317045
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "t1194",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 5045.41,
+              "providers": [
+                {
+                  "billed_charge": 5456.95,
+                  "npi": [
+                    6884303903
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "s8042",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 3743.34,
+              "providers": [
+                {
+                  "billed_charge": 9888.98,
+                  "npi": [
+                    9202019889
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "X1811",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 3825.38,
+              "providers": [
+                {
+                  "billed_charge": 5068.61,
+                  "npi": [
+                    5824937281
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "p0326",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 709.78,
+              "providers": [
+                {
+                  "billed_charge": 2247.08,
+                  "npi": [
+                    7673797777
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "x1122",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 3731.79,
+              "providers": [
+                {
+                  "billed_charge": 5594,
+                  "npi": [
+                    4138810698
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "Q2912",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 286.85,
+              "providers": [
+                {
+                  "billed_charge": 473.05,
+                  "npi": [
+                    5789478332
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "F3783",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 5299.96,
+              "providers": [
+                {
+                  "billed_charge": 8604.63,
+                  "npi": [
+                    2181310109
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "h4038",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 9111.06,
+              "providers": [
+                {
+                  "billed_charge": 9460.61,
+                  "npi": [
+                    4681209467
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "l2187",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 111.93,
+              "providers": [
+                {
+                  "billed_charge": 7183.64,
+                  "npi": [
+                    2918899486
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "J4446",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 2925.62,
+              "providers": [
+                {
+                  "billed_charge": 3249.98,
+                  "npi": [
+                    7056299475
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "V2367",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 3773.67,
+              "providers": [
+                {
+                  "billed_charge": 3793.91,
+                  "npi": [
+                    2068469632
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "p9218",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 4826.58,
+              "providers": [
+                {
+                  "billed_charge": 7983.73,
+                  "npi": [
+                    2309651870
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "D2675",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 1878.68,
+              "providers": [
+                {
+                  "billed_charge": 6416.65,
+                  "npi": [
+                    9351965319
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "N8885",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 2133.35,
+              "providers": [
+                {
+                  "billed_charge": 5023.79,
+                  "npi": [
+                    8716551378
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "D6206",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 1412.66,
+              "providers": [
+                {
+                  "billed_charge": 1597.74,
+                  "npi": [
+                    8407202226
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "t3785",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 3519.92,
+              "providers": [
+                {
+                  "billed_charge": 6362.84,
+                  "npi": [
+                    9514707759
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "L8226",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 767.2,
+              "providers": [
+                {
+                  "billed_charge": 1162.89,
+                  "npi": [
+                    8953731110
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "Q9661",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 2631.84,
+              "providers": [
+                {
+                  "billed_charge": 5787.09,
+                  "npi": [
+                    8539288940
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "h7399",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 5021.49,
+              "providers": [
+                {
+                  "billed_charge": 6507.37,
+                  "npi": [
+                    5193435202
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "P0212",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 1605.68,
+              "providers": [
+                {
+                  "billed_charge": 2364.24,
+                  "npi": [
+                    9337137172
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "x2998",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 3908.42,
+              "providers": [
+                {
+                  "billed_charge": 5493.72,
+                  "npi": [
+                    629493420
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "R5303",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 7443.38,
+              "providers": [
+                {
+                  "billed_charge": 8207.41,
+                  "npi": [
+                    8202983765
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "Z5215",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 3505.17,
+              "providers": [
+                {
+                  "billed_charge": 7371.77,
+                  "npi": [
+                    1228885938
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "X1538",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 2543.08,
+              "providers": [
+                {
+                  "billed_charge": 2737.2,
+                  "npi": [
+                    8927336121
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "V6171",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 8628.75,
+              "providers": [
+                {
+                  "billed_charge": 8894.59,
+                  "npi": [
+                    6512152455
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "R1869",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 4871.09,
+              "providers": [
+                {
+                  "billed_charge": 8846.1,
+                  "npi": [
+                    6616602223
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "F7741",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 4966.34,
+              "providers": [
+                {
+                  "billed_charge": 7478.7,
+                  "npi": [
+                    365128923
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "C8461",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 1373.53,
+              "providers": [
+                {
+                  "billed_charge": 1940.18,
+                  "npi": [
+                    8104959821
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "s6365",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 2640.8,
+              "providers": [
+                {
+                  "billed_charge": 7722.86,
+                  "npi": [
+                    6559942519
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "F1777",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 6042.27,
+              "providers": [
+                {
+                  "billed_charge": 9171.84,
+                  "npi": [
+                    9950526994
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "f7402",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 2711.33,
+              "providers": [
+                {
+                  "billed_charge": 3852.2,
+                  "npi": [
+                    1337652128
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "g7745",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 1440.63,
+              "providers": [
+                {
+                  "billed_charge": 2680.95,
+                  "npi": [
+                    8979848999
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "j9280",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 424.59,
+              "providers": [
+                {
+                  "billed_charge": 3484.01,
+                  "npi": [
+                    5436089293
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "z3874",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 394.48,
+              "providers": [
+                {
+                  "billed_charge": 2054.05,
+                  "npi": [
+                    9386136207
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "O5434",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 867.69,
+              "providers": [
+                {
+                  "billed_charge": 2938.92,
+                  "npi": [
+                    4219650761
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "e3968",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 7415.08,
+              "providers": [
+                {
+                  "billed_charge": 9117.6,
+                  "npi": [
+                    2699923720
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "e2617",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 3377.98,
+              "providers": [
+                {
+                  "billed_charge": 4703.16,
+                  "npi": [
+                    6722060435
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "H6731",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 919.35,
+              "providers": [
+                {
+                  "billed_charge": 1510.5,
+                  "npi": [
+                    9296456294
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "i7726",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 1132.67,
+              "providers": [
+                {
+                  "billed_charge": 2340.91,
+                  "npi": [
+                    4579102173
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "U7299",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 8.32,
+              "providers": [
+                {
+                  "billed_charge": 4917.4,
+                  "npi": [
+                    949318035
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "d2247",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 2391.67,
+              "providers": [
+                {
+                  "billed_charge": 4925.29,
+                  "npi": [
+                    4870573538
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "S6528",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 4225.5,
+              "providers": [
+                {
+                  "billed_charge": 5334.09,
+                  "npi": [
+                    4752371608
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "y5169",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 2285.08,
+              "providers": [
+                {
+                  "billed_charge": 5563.39,
+                  "npi": [
+                    9613381226
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "B6055",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 2394.33,
+              "providers": [
+                {
+                  "billed_charge": 7294.33,
+                  "npi": [
+                    8155063706
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "s2608",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 1367.7,
+              "providers": [
+                {
+                  "billed_charge": 4132,
+                  "npi": [
+                    4431932621
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "L7583",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 1449.1,
+              "providers": [
+                {
+                  "billed_charge": 1796.12,
+                  "npi": [
+                    891303131
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "f7990",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 3749.49,
+              "providers": [
+                {
+                  "billed_charge": 7379.56,
+                  "npi": [
+                    2296380323
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "I9116",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 4265.68,
+              "providers": [
+                {
+                  "billed_charge": 6543.05,
+                  "npi": [
+                    6716636266
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "n4293",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 2379.36,
+              "providers": [
+                {
+                  "billed_charge": 7076.05,
+                  "npi": [
+                    4249637925
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "b7298",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 6253.48,
+              "providers": [
+                {
+                  "billed_charge": 7175.55,
+                  "npi": [
+                    9500216825
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "W7733",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 1241.01,
+              "providers": [
+                {
+                  "billed_charge": 4723.52,
+                  "npi": [
+                    6868032126
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "B2312",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 128.11,
+              "providers": [
+                {
+                  "billed_charge": 397.03,
+                  "npi": [
+                    8477815770
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "l9256",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 1914.24,
+              "providers": [
+                {
+                  "billed_charge": 2656.42,
+                  "npi": [
+                    8989508984
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "a0930",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 4667.11,
+              "providers": [
+                {
+                  "billed_charge": 6107.97,
+                  "npi": [
+                    747894440
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "r3285",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 1302.24,
+              "providers": [
+                {
+                  "billed_charge": 7450.24,
+                  "npi": [
+                    8406087357
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "K3169",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 251.9,
+              "providers": [
+                {
+                  "billed_charge": 392.23,
+                  "npi": [
+                    8376493204
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "H0861",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 5901.75,
+              "providers": [
+                {
+                  "billed_charge": 7312.77,
+                  "npi": [
+                    9661164555
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "T4523",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 3230.14,
+              "providers": [
+                {
+                  "billed_charge": 4351.45,
+                  "npi": [
+                    1365130098
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "N4572",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 3702.17,
+              "providers": [
+                {
+                  "billed_charge": 4128.04,
+                  "npi": [
+                    5553989492
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "y6426",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 6831.23,
+              "providers": [
+                {
+                  "billed_charge": 8743.58,
+                  "npi": [
+                    2636453114
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "z6123",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 321.35,
+              "providers": [
+                {
+                  "billed_charge": 1377.78,
+                  "npi": [
+                    9987940616
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "U7902",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 5442.82,
+              "providers": [
+                {
+                  "billed_charge": 8279.08,
+                  "npi": [
+                    8035055616
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "H2315",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 435.35,
+              "providers": [
+                {
+                  "billed_charge": 6326.58,
+                  "npi": [
+                    646283872
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "W0764",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 5160.01,
+              "providers": [
+                {
+                  "billed_charge": 9611.44,
+                  "npi": [
+                    1282348307
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "v7001",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 7025.54,
+              "providers": [
+                {
+                  "billed_charge": 8189,
+                  "npi": [
+                    5216641011
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "C5820",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 3342.91,
+              "providers": [
+                {
+                  "billed_charge": 5980.41,
+                  "npi": [
+                    5589561588
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "a8780",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 5099.08,
+              "providers": [
+                {
+                  "billed_charge": 7462.15,
+                  "npi": [
+                    1483120881
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "p0638",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 3365.08,
+              "providers": [
+                {
+                  "billed_charge": 3491.77,
+                  "npi": [
+                    3129350801
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "T8831",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 750.35,
+              "providers": [
+                {
+                  "billed_charge": 6738.56,
+                  "npi": [
+                    3267997078
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "k8216",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 1159.28,
+              "providers": [
+                {
+                  "billed_charge": 7516.5,
+                  "npi": [
+                    204212294
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "d1603",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 1581.38,
+              "providers": [
+                {
+                  "billed_charge": 1631.42,
+                  "npi": [
+                    5251094265
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "R8963",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 914.81,
+              "providers": [
+                {
+                  "billed_charge": 3658.91,
+                  "npi": [
+                    541661037
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "R9666",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 2565.73,
+              "providers": [
+                {
+                  "billed_charge": 5325.44,
+                  "npi": [
+                    4986573163
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "J1972",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 240.82,
+              "providers": [
+                {
+                  "billed_charge": 4465.85,
+                  "npi": [
+                    7199888274
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "r9637",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 840.67,
+              "providers": [
+                {
+                  "billed_charge": 3612.32,
+                  "npi": [
+                    7648219213
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "c2330",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 157.55,
+              "providers": [
+                {
+                  "billed_charge": 494.15,
+                  "npi": [
+                    726804719
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "J6110",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 3502.99,
+              "providers": [
+                {
+                  "billed_charge": 4880.28,
+                  "npi": [
+                    5760410513
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "N5210",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 3130.55,
+              "providers": [
+                {
+                  "billed_charge": 6085.56,
+                  "npi": [
+                    136902187
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "d8266",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 78.23,
+              "providers": [
+                {
+                  "billed_charge": 9469.82,
+                  "npi": [
+                    3306575340
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "K3680",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 2361.53,
+              "providers": [
+                {
+                  "billed_charge": 3403.94,
+                  "npi": [
+                    6326450371
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "P3539",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 732.66,
+              "providers": [
+                {
+                  "billed_charge": 2386.28,
+                  "npi": [
+                    6266242808
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "H8547",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 360.02,
+              "providers": [
+                {
+                  "billed_charge": 1307.56,
+                  "npi": [
+                    6100461642
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "X8938",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 2405.51,
+              "providers": [
+                {
+                  "billed_charge": 9155.49,
+                  "npi": [
+                    6852155062
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "z4676",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 3940.62,
+              "providers": [
+                {
+                  "billed_charge": 4336.64,
+                  "npi": [
+                    8959869433
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "E6641",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 460.24,
+              "providers": [
+                {
+                  "billed_charge": 775.29,
+                  "npi": [
+                    7969778911
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "p5074",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 7855.61,
+              "providers": [
+                {
+                  "billed_charge": 9083.87,
+                  "npi": [
+                    3689852691
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "d2440",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 4295.48,
+              "providers": [
+                {
+                  "billed_charge": 6437.53,
+                  "npi": [
+                    8573218393
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "L7684",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 161.5,
+              "providers": [
+                {
+                  "billed_charge": 8762.7,
+                  "npi": [
+                    2097314224
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "m8584",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 5277.37,
+              "providers": [
+                {
+                  "billed_charge": 9373.4,
+                  "npi": [
+                    2785706251
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "H4668",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 3404.07,
+              "providers": [
+                {
+                  "billed_charge": 5564.75,
+                  "npi": [
+                    7193354528
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "V5164",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 4006.12,
+              "providers": [
+                {
+                  "billed_charge": 7626.63,
+                  "npi": [
+                    5227657084
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "W2093",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 22.96,
+              "providers": [
+                {
+                  "billed_charge": 276.04,
+                  "npi": [
+                    6943388110
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "T8823",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 4257.08,
+              "providers": [
+                {
+                  "billed_charge": 5466.64,
+                  "npi": [
+                    9640766602
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "b1573",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 5039.13,
+              "providers": [
+                {
+                  "billed_charge": 5640.31,
+                  "npi": [
+                    7394682765
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "l7118",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 2339.91,
+              "providers": [
+                {
+                  "billed_charge": 4694.92,
+                  "npi": [
+                    3303330439
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "L9163",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 322.61,
+              "providers": [
+                {
+                  "billed_charge": 9135.19,
+                  "npi": [
+                    3362783975
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "E0805",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 1298.16,
+              "providers": [
+                {
+                  "billed_charge": 3916,
+                  "npi": [
+                    2268152631
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "P5134",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 5783.59,
+              "providers": [
+                {
+                  "billed_charge": 7557.98,
+                  "npi": [
+                    6446246983
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "k9581",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 249.1,
+              "providers": [
+                {
+                  "billed_charge": 598.36,
+                  "npi": [
+                    268020961
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "X5354",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 27.27,
+              "providers": [
+                {
+                  "billed_charge": 212.32,
+                  "npi": [
+                    3144852546
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "n2967",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 1522.99,
+              "providers": [
+                {
+                  "billed_charge": 9132.14,
+                  "npi": [
+                    1206547767
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "i7325",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 4103.35,
+              "providers": [
+                {
+                  "billed_charge": 8052.69,
+                  "npi": [
+                    133625737
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "M7771",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 4232.69,
+              "providers": [
+                {
+                  "billed_charge": 6829.86,
+                  "npi": [
+                    6852056665
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "W9984",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 443.78,
+              "providers": [
+                {
+                  "billed_charge": 532.9,
+                  "npi": [
+                    2491026643
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "e3178",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 713.14,
+              "providers": [
+                {
+                  "billed_charge": 772.25,
+                  "npi": [
+                    3905945614
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "l6820",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 267.92,
+              "providers": [
+                {
+                  "billed_charge": 4100.99,
+                  "npi": [
+                    1822574380
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "D0582",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 445.24,
+              "providers": [
+                {
+                  "billed_charge": 981.93,
+                  "npi": [
+                    9255562249
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "y9800",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 452.44,
+              "providers": [
+                {
+                  "billed_charge": 9653.42,
+                  "npi": [
+                    5709297109
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "P1347",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 3111.25,
+              "providers": [
+                {
+                  "billed_charge": 5200.49,
+                  "npi": [
+                    9720024081
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "P0223",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 797.74,
+              "providers": [
+                {
+                  "billed_charge": 808.24,
+                  "npi": [
+                    4834114275
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "C0593",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 1489.86,
+              "providers": [
+                {
+                  "billed_charge": 6701.19,
+                  "npi": [
+                    1421621814
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "B2236",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 3390.27,
+              "providers": [
+                {
+                  "billed_charge": 9898.59,
+                  "npi": [
+                    4294063663
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "b2473",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "22"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 608.27,
+              "providers": [
+                {
+                  "billed_charge": 1627.97,
+                  "npi": [
+                    2205881827
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "F6263",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 3339.25,
+              "providers": [
+                {
+                  "billed_charge": 8924.46,
+                  "npi": [
+                    7358675471
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "P4794",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 5777.09,
+              "providers": [
+                {
+                  "billed_charge": 5932.61,
+                  "npi": [
+                    2140655939
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "c5996",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 5535.73,
+              "providers": [
+                {
+                  "billed_charge": 9125.29,
+                  "npi": [
+                    19880879
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "v2721",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 223.21,
+              "providers": [
+                {
+                  "billed_charge": 4965.55,
+                  "npi": [
+                    7576625050
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "s6871",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 1228.9,
+              "providers": [
+                {
+                  "billed_charge": 4032.27,
+                  "npi": [
+                    1850118636
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "D4072",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "23"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 7156.58,
+              "providers": [
+                {
+                  "billed_charge": 7245.39,
+                  "npi": [
+                    1470200633
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "V7555",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 627.87,
+              "providers": [
+                {
+                  "billed_charge": 1588.04,
+                  "npi": [
+                    1843483047
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "H9014",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 919.5,
+              "providers": [
+                {
+                  "billed_charge": 2232.25,
+                  "npi": [
+                    4767025810
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "S5405",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "professional",
+          "service_code": [
+            "21"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 5978.37,
+              "providers": [
+                {
+                  "billed_charge": 7490.67,
+                  "npi": [
+                    2230234515
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "billing_code_type": "CPT",
+      "billing_code": "L4001",
+      "billing_code_type_version": "2024",
+      "description": "Medical procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "npi",
+            "value": "1234567890"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 5382.1,
+              "providers": [
+                {
+                  "billed_charge": 8662.81,
+                  "npi": [
+                    5389714948
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

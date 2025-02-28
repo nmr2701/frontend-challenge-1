@@ -39,7 +39,7 @@ export const parseClaimsCSV = (file: File): Promise<{ data: ClaimsType[]; name: 
                         claimType: row['Claim Type'],
                         procedureCode: row['Procedure Code'],
                         memberGender: row['Member Gender'],
-                        providerId: row['Provider ID'],
+                        providerId: Number(row['Provider ID']),
                         providerName: row['Provider Name'],
                     };
 

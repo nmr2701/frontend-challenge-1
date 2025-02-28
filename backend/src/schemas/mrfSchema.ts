@@ -14,21 +14,24 @@ const paymentSchema = z.object({
 
 const allowedAmountSchema = z.object({
   tin: z.object({
-    type: z.enum(["ein", "npi"]),
+    // type: z.enum(["ein", "npi"]),
+    type: z.string(),
     value: z.string()
   }),
   service_code: z.array(z.string()).optional(), // IMPORTANT : required when professional billing class
-  billing_class: z.enum(["professional", "institutional"]),
+  // billing_class: z.enum(["professional", "institutional"]),
+  billing_class: z.string(),
   payments: z.array(paymentSchema)
 });
 
 const outOfNetworkSchema = z.object({
   name: z.string(),
-  billing_code_type: z.enum([
-    "CPT", "HCPCS", "ICD", "MS-DRG", "R-DRG", "S-DRG",
-    "APS-DRG", "AP-DRG", "APR-DRG", "APC", "NDC", "HIPPS",
-    "LOCAL", "EAPG", "CDT", "RC"
-  ]),
+  // billing_code_type: z.enum([
+  //   "CPT", "HCPCS", "ICD", "MS-DRG", "R-DRG", "S-DRG",
+  //   "APS-DRG", "AP-DRG", "APR-DRG", "APC", "NDC", "HIPPS",
+  //   "LOCAL", "EAPG", "CDT", "RC"
+  // ]),
+  billing_code_type: z.string(),
   billing_code: z.string(),
   billing_code_type_version: z.string(),
   description: z.string(),
@@ -39,9 +42,11 @@ const mrfSchema = z.object({
   reporting_entity_name: z.string(),
   reporting_entity_type: z.string(),
   plan_name: z.string().optional(),
-  plan_id_type: z.enum(["EIN", "HIOS"]).optional(),
+  // plan_id_type: z.enum(["EIN", "HIOS"]).optional(),
+  plan_id_type: z.string().optional(),
   plan_id: z.string(),
-  plan_market_type: z.enum(["group", "individual"]).optional(),
+  // plan_market_type: z.enum(["group", "individual"]).optional(),
+  plan_market_type: z.string().optional(),
   last_updated_on: z.string(),
   version: z.string(),
   out_of_network: z.array(outOfNetworkSchema)

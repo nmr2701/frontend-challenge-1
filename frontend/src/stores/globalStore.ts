@@ -13,6 +13,10 @@ class ClaimsStore {
     this.claims = data;
   }
 
+  removeClaim(claimId: number) {
+    this.claims = this.claims.filter(claim => claim.claimId !== claimId);
+  }
+
   setSelectedFileName(fileName: string) {
     this.selectedFileName = fileName;
   }
