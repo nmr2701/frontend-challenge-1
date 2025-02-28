@@ -3,6 +3,7 @@ import path from 'path';
 import type { MrfType } from '../schemas/mrfSchema.js';
 
 export function getMrfFiles(): MrfType[] {
+    const __dirname = path.dirname(new URL(import.meta.url).pathname);
     const mrfFilesDir = path.join(__dirname, '../mrfFiles');
     const files = fs.readdirSync(mrfFilesDir);
     const mrfFiles: MrfType[] = [];

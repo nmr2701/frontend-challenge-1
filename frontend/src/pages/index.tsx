@@ -1,4 +1,3 @@
-import React from "react";
 import FileUpload from "~/components/FileUpload";
 import ClaimsTable from "~/components/ClaimsTable";
 
