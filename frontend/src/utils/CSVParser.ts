@@ -1,6 +1,7 @@
 import Papa from "papaparse";
 import { claimsSchema, ClaimsType } from "../schemas/claimsSchema";
 import { z } from "zod";
+import { validateClaims } from "./validateClaims";
 
 export const parseClaimsCSV = (file: File): Promise<{ data: ClaimsType[]; name: string; errors: string[] }> => {
     return new Promise((resolve, reject) => {
