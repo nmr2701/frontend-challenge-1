@@ -21,6 +21,35 @@ class ClaimsStore {
         this.selectedFileName = fileName;
     }
 }
+
+
+class AuthStore {
+    isAuthenticated = false;
+
+    constructor() {
+        makeAutoObservable(this);
+        this.checkAuth();
+    }
+
+    checkAuth() {
+        const storedAuth = localStorage.getItem("isAuthenticated");
+        this.isAuthenticated = storedAuth === "true";
+    }
+
+    login() {
+        this.isAuthenticated = true;
+        localStorage.setItem("isAuthenticated", "true");
+    }
+
+    logout() {
+        this.isAuthenticated = false;
+        localStorage.removeItem("isAuthenticated");
+    }
+}
+
+
+const authStore = new AuthStore();
+
 const claimsStore = new ClaimsStore();
 
-export { claimsStore };
+export { claimsStore, authStore };
